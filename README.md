@@ -1,8 +1,9 @@
 [![cover](images/cover.png)](SUMMARY.md)
 
 ## About this book
+This is a translation from JavaScript to Python. The original book can be found [here](https://mostly-adequate.gitbooks.io/mostly-adequate-guide/).
 
-This is a book on the functional paradigm in general. We'll use the world's most popular functional programming language: JavaScript. Some may feel this is a poor choice as it's against the grain of the current culture which, at the moment, feels predominately imperative. However, I believe it is the best way to learn FP for several reasons:
+This is a book on the functional paradigm in general. We'll use the world's most popular functional programming language: Python. Some may feel this is a poor choice as it's against the grain of the current culture which, at the moment, feels predominately imperative. However, I believe it is the best way to learn FP for several reasons:
 
  * **You likely use it every day at work.**
 
@@ -11,19 +12,19 @@ This is a book on the functional paradigm in general. We'll use the world's most
 
  * **We don't have to learn everything up front to start writing programs.**
 
-    In a pure functional language, you cannot log a variable or read a DOM node without using monads. Here we can cheat a little as we learn to purify our codebase. It's also easier to get started in this language since it's mixed paradigm and you can fall back on your current practices while there are gaps in your knowledge.
+    In a pure functional language, you cannot log a variable  without using monads. Here we can cheat a little as we learn to purify our codebase. It's also easier to get started in this language since it's mixed paradigm and you can fall back on your current practices while there are gaps in your knowledge.
 
 
  * **The language is fully capable of writing top notch functional code.**
 
-    We have all the features we need to mimic a language like Scala or Haskell with the help of a tiny library or two. Object-oriented programming currently dominates the industry, but it's clearly awkward in JavaScript. It's akin to camping off of a highway or tap dancing in galoshes. We have to `bind` all over the place lest `this` change out from under us, we have various work arounds for the quirky behavior when the `new` keyword is forgotten, private members are only available via closures. To a lot of us, FP feels more natural anyways.
+    We have all the features we need to mimic a language like Scala or Haskell with the help of a tiny library or two. Object-oriented programming currently dominates the industry, but it's clearly awkward in python. It's akin to camping off of a highway or tap dancing in galoshes. To a lot of us, FP feels more natural anyways.
 
-That said, typed functional languages will, without a doubt, be the best place to code in the style presented by this book. JavaScript will be our means of learning a paradigm, where you apply it is up to you. Luckily, the interfaces are mathematical and, as such, ubiquitous. You'll find yourself at home with Swiftz, Scalaz, Haskell, PureScript, and other mathematically inclined environments.
+That said, typed functional languages will, without a doubt, be the best place to code in the style presented by this book. Python will be our means of learning a paradigm, where you apply it is up to you. Luckily, the interfaces are mathematical and, as such, ubiquitous. You'll find yourself at home with Swiftz, Scalaz, Haskell, PureScript, and other mathematically inclined environments.
 
 
 ## Read it Online
 
-For a best reading experience, [read it online via Gitbook](https://mostly-adequate.gitbooks.io/mostly-adequate-guide/).
+For a best reading experience, [read it online via Gitbook](https://tartavull.gitbook.io/adequate-python/).
 
 - Quick-access side-bar
 - In-browser exercises
@@ -33,29 +34,29 @@ For a best reading experience, [read it online via Gitbook](https://mostly-adequ
 ## Play Around with Code
 
 To make the training efficient and not get too bored while I am telling you another story, make sure to play around with the concepts introduced in this book. Some can be tricky to catch at first and are better understood by getting your hand dirty. 
-All functions and algebraic data-structures presented in the book are gathered in the appendixes. The corresponding code is also available as an npm module:
+All functions and algebraic data-structures presented in the book are gathered in the appendixes. The corresponding code is also available as pip module:
 
 ```bash
-$ npm i @mostly-adequate/support
+$ pip install adequate
 ```
 
 Alternatively, exercises of each chapter are runnable and can be completed in your editor! For example, complete the `exercise_*.js` in `exercises/ch04` and then run:
 
 ```bash
-$ npm run ch04
+$ python ch04.py
 ```
 
 ## Download it
 
-* [Download PDF](https://www.gitbook.com/download/pdf/book/mostly-adequate/mostly-adequate-guide)
-* [Download EPUB](https://www.gitbook.com/download/epub/book/mostly-adequate/mostly-adequate-guide)
-* [Download Mobi (Kindle)](https://www.gitbook.com/download/mobi/book/mostly-adequate/mostly-adequate-guide)
+* [Download PDF](https://www.gitbook.com/download/pdf/book/tartavull/adequate-python)
+* [Download EPUB](https://www.gitbook.com/download/epub/book/tartavull/adequate-python)
+* [Download Mobi (Kindle)](https://www.gitbook.com/download/mobi/book/tartavull/adequate-python)
 
 
 ## Do it yourself
 
 ```
-git clone https://github.com/MostlyAdequate/mostly-adequate-guide.git
+git clone https://github.com/tartavull/mostly-adequate-guide.git
 cd mostly-adequate-guide/
 npm install
 npm run setup
