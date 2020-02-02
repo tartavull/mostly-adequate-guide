@@ -1,5 +1,14 @@
 [![cover](images/cover.png)](SUMMARY.md)
 
+## Read it Online
+
+For a best reading experience, [read it online via Gitbook](https://tartavull.gitbook.io/adequate-python/).
+
+- Quick-access side-bar
+- In-browser exercises
+- In-depth examples
+
+
 ## About this book
 This is a translation from JavaScript to Python. The original book can be found [here](https://mostly-adequate.gitbooks.io/mostly-adequate-guide/).
 
@@ -22,15 +31,6 @@ This is a book on the functional paradigm in general. We'll use the world's most
 That said, typed functional languages will, without a doubt, be the best place to code in the style presented by this book. Python will be our means of learning a paradigm, where you apply it is up to you. Luckily, the interfaces are mathematical and, as such, ubiquitous. You'll find yourself at home with Swiftz, Scalaz, Haskell, PureScript, and other mathematically inclined environments.
 
 
-## Read it Online
-
-For a best reading experience, [read it online via Gitbook](https://tartavull.gitbook.io/adequate-python/).
-
-- Quick-access side-bar
-- In-browser exercises
-- In-depth examples
-
-
 ## Play Around with Code
 
 To make the training efficient and not get too bored while I am telling you another story, make sure to play around with the concepts introduced in this book. Some can be tricky to catch at first and are better understood by getting your hand dirty. 
@@ -39,60 +39,6 @@ All functions and algebraic data-structures presented in the book are gathered i
 ```bash
 $ pip install adequate
 ```
-
-Alternatively, exercises of each chapter are runnable and can be completed in your editor! For example, complete the `exercise_*.js` in `exercises/ch04` and then run:
-
-```bash
-$ python ch04.py
-```
-
-## Download it
-
-* [Download PDF](https://www.gitbook.com/download/pdf/book/tartavull/adequate-python)
-* [Download EPUB](https://www.gitbook.com/download/epub/book/tartavull/adequate-python)
-* [Download Mobi (Kindle)](https://www.gitbook.com/download/mobi/book/tartavull/adequate-python)
-
-
-## Do it yourself
-
-```
-git clone https://github.com/tartavull/mostly-adequate-guide.git
-cd mostly-adequate-guide/
-npm install
-npm run setup
-npm run generate-pdf
-npm run generate-epub
-```
-
-> Note! To generate the ebook version you will need to install `ebook-convert`. [Installation instructions](https://toolchain.gitbook.com/ebook.html#installing-ebook-convert).
-
-# Table of Contents
-
-See [SUMMARY.md](SUMMARY.md)
-
-### Contributing
-
-See [CONTRIBUTING.md](CONTRIBUTING.md)
-
-### Translations
-
-See [TRANSLATIONS.md](TRANSLATIONS.md)
-
-### FAQ
-
-See [FAQ.md](FAQ.md)
-
-
-
-# Plans for the future
-
-* **Part 1** (chapters 1-7) is a guide to the basics. I'm updating as I find errors since this is the initial draft. Feel free to help!
-* **Part 2** (chapters 8-13) address type classes like functors and monads all the way through to traversable. I hope to squeeze in transformers and a pure application.
-* **Part 3** (chapters 14+) will start to dance the fine line between practical programming and academic absurdity. We'll look at comonads, f-algebras, free monads, yoneda, and other categorical constructs.
-
-
----
-
 
 <p align="center">
   <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
