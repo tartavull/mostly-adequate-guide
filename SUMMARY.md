@@ -6,4 +6,6 @@
 * [Chapter 04: Currying](ch04.md)
 * [Chapter 05: Coding by Composing](ch05.md)
 * [Chapter 06: Hindley-Milner and Me](ch06.md)
+* [Chapter 07: Tupperware](ch07.md)
+* [Chapter 08: Monadic Onions](ch08.md)
 * [Appendix A](appendix_a.md)
