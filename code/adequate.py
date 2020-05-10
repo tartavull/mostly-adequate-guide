@@ -27,6 +27,28 @@ to_lower_case = lambda x: x.lower()
 head = curry(lambda xs: xs[0])
 add = curry(lambda x,y: x+y)
 
+
+class Container:
+  def __init__(self, value):
+    self.value = value
+
+  def __repr__(self):
+    return f'Container({self.value.__repr__()})'
+
+  def map(self, f):
+    return Container(f(self.value))
+
+  def join(self):
+    return self.value
+    
+  # chain :: Monad m => (a -> m b) -> m a -> m b
+  def chain(self, fn):
+    return self.map(fn).join()
+
+  def ap(self, other):
+    return other.map(self.value)
+
+
 class Maybe:
   def __init__(self, value):
     self.value = value

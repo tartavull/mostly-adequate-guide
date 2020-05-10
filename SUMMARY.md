@@ -8,4 +8,5 @@
 * [Chapter 06: Hindley-Milner and Me](ch06.md)
 * [Chapter 07: Tupperware](ch07.md)
 * [Chapter 08: Monadic Onions](ch08.md)
+* [Chapter 09: Applicative Functors](ch09.md)
 * [Appendix A](appendix_a.md)
