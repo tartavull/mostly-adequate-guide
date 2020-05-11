@@ -10,4 +10,5 @@
 * [Chapter 08: Monadic Onions](ch08.md)
 * [Chapter 09: Applicative Functors](ch09.md)
 * [Chapter 10: Transform Again, Naturally](ch10.md)
+* [Chapter 11: Traversing the Stone](ch11.md)
 * [Appendix A](appendix_a.md)
