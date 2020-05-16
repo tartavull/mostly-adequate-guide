@@ -1,14 +1,5 @@
 
-## Read it Online
-
-For a best reading experience, [read it online via Gitbook](https://tartavull.gitbook.io/adequate-python/).
-
-- Quick-access side-bar
-- In-browser exercises
-- In-depth examples
-
-
-## About this book
+# About this book
 
 This is a book on the functional paradigm in general. We'll use the world's most popular functional programming language: Python. Some may feel this is a poor choice as it's against the grain of the current culture which, at the moment, feels predominately imperative. However, I believe it is the best way to learn FP for several reasons:
 
