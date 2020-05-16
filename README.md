@@ -1,4 +1,3 @@
-[![cover](images/cover.png)](SUMMARY.md)
 
 ## Read it Online
 
@@ -10,7 +9,6 @@ For a best reading experience, [read it online via Gitbook](https://tartavull.gi
 
 
 ## About this book
-This is a translation from JavaScript to Python. The original book can be found [here](https://mostly-adequate.gitbooks.io/mostly-adequate-guide/).
 
 This is a book on the functional paradigm in general. We'll use the world's most popular functional programming language: Python. Some may feel this is a poor choice as it's against the grain of the current culture which, at the moment, feels predominately imperative. However, I believe it is the best way to learn FP for several reasons:
 
@@ -40,6 +38,7 @@ All functions and algebraic data-structures presented in the book are gathered i
 $ pip install adequate
 ```
 
+This is a translation from JavaScript to Python. The original book can be found [here](https://mostly-adequate.gitbooks.io/mostly-adequate-guide/).
 <p align="center">
   <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
     <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />

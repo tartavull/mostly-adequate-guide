@@ -11,4 +11,5 @@
 * [Chapter 09: Applicative Functors](ch09.md)
 * [Chapter 10: Transform Again, Naturally](ch10.md)
 * [Chapter 11: Traversing the Stone](ch11.md)
+* [Chapter 12: Monoids bring it all together](ch12.md)
 * [Appendix A](appendix_a.md)
